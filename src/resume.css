@@ -1,0 +1,150 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.main {
+    height: 120vh;
+    background-image: linear-gradient(to right, rgb(173, 173, 173), white);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    flex: 1;
+    border: 3px solid black;
+    margin: 40px 40px 20px;
+    display: flex;
+    /* padding:10px; */
+
+}
+
+.header_left {
+    flex: 6;
+    padding: 20px;
+    /* border:3px solid black; */
+}
+
+.header_right {
+    flex: 4;
+    /* border:3px solid black; */
+}
+
+.bottom {
+    margin-top: 5px;
+    border-bottom: 1px solid black;
+}
+
+strong {
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}
+
+.left_bottom {
+    color: gray;
+    float: right;
+    font-family: 'Arial Narrow';
+}
+
+.body {
+    flex: 9;
+    /* background-color: azure; */
+    margin: 0px 40px;
+    display: flex;
+}
+
+.body_left {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact {
+    flex: 6;
+    display: flex;
+    margin-top: 1px;
+    flex-direction: column;
+}
+
+.word {
+
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Cambria, Cochin';
+}
+
+.c {
+    flex: 2;
+    /* border:1px solid black; */
+    margin-left: 50px;
+    font-family: 'Arial Narrow';
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.fp {
+    font-family: 'Arial Narrow';
+    font-weight: bold;
+    font-size: 16px;
+
+
+}
+
+.skill {
+    margin-top: 1px;
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.know {
+    height: 5px;
+    width: 70%;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 2px;
+    margin-bottom: 2px;
+}
+
+.education {
+    margin-top: 1px;
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.body_right {
+    flex: 7;
+    display: flex;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
+.profile {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile_para {
+    flex: 1;
+    margin: 20px;
+    font-size: 21px;
+}
+
+.experience {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience_para {
+    flex: 1;
+    margin: 20px;
+    font-size: 21px;
+}
